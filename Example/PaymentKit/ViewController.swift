@@ -13,8 +13,8 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        ApplePay.pay()
-        GooglePay.pay()
+//        ApplePay.pay()
+//        GooglePay.pay()
         Paypal.pay()
         // Do any additional setup after loading the view, typically from a nib.
     }
