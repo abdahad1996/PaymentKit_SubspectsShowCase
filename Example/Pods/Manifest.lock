@@ -1,0 +1,16 @@
+PODS:
+  - PaymentKit/Paypal (0.0.1)
+
+DEPENDENCIES:
+  - PaymentKit/Paypal (from `../`)
+
+EXTERNAL SOURCES:
+  PaymentKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PaymentKit: 412bbad0ac1d1ea48882a9d9f945c9ecff43cbde
+
+PODFILE CHECKSUM: 14597b110960d133fec1230c9ef9c4aa7f5a9b1e
+
+COCOAPODS: 1.14.3

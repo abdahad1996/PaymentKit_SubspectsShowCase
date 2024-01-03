@@ -1,0 +1,35 @@
+{
+  "name": "PaymentKit",
+  "version": "0.0.1",
+  "summary": "different payment features available",
+  "homepage": "https://github.com/abdahad1996/PaymentKit_SubspectsShowCase.git",
+  "license": "UNLICENSED",
+  "authors": {
+    "Abdul Ahad Jamal": "a.ahad@geomobile.de"
+  },
+  "swift_versions": "5.0",
+  "static_framework": false,
+  "platforms": {
+    "ios": "14.0"
+  },
+  "source": {
+    "git": "https://github.com/abdahad1996/PaymentKit_SubspectsShowCase.git",
+    "tag": "0.0.1"
+  },
+  "source_files": "Sources/**/*",
+  "subspecs": [
+    {
+      "name": "ApplePay",
+      "source_files": "Sources/ApplePay/**/*"
+    },
+    {
+      "name": "GooglePay",
+      "source_files": "Sources/GooglePay/**/*"
+    },
+    {
+      "name": "Paypal",
+      "source_files": "Sources/Paypal/**/*"
+    }
+  ],
+  "swift_version": "5.0"
+}
