@@ -2,10 +2,10 @@ use_frameworks!
 
 platform :ios, '14.0'
 
-target 'Example' do
-  pod 'Firebase/Analytics'
-  
-  target 'Example_Tests' do
+target 'PaymentKit_Example' do
+  pod 'PaymentKit/Paypal', :path => '../'
+
+  target 'PaymentKit_Tests' do
     inherit! :search_paths
 
     
